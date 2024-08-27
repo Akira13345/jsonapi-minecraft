@@ -1,0 +1,49 @@
+{
+  "name": "jsonapi-minecraft",
+  "version": "1.0.1",
+  "description": "This TypeScript library makes it easy to communicate with a Minecraft server via the JSONAPI API.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "minecraft",
+    "api",
+    "jsonapi",
+    "server",
+    "management",
+    "commands",
+    "typescript",
+    "game-server",
+    "minecraft-server",
+    "rcon",
+    "plugin",
+    "console",
+    "multiplayer",
+    "server-api",
+    "minecraft-plugin",
+    "node-minecraft",
+    "server-control",
+    "minecraft-integration"
+  ],
+  "author": "Akira13345",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Akira13345/jsonapi-minecraft.git"
+  },
+  "homepage": "https://github.com/Akira13345/jsonapi-minecraft",
+  "files": [
+    "dist/**/*.js",
+    "dist/**/*.d.ts",
+    "dist/**/*.js.map"
+  ],
+  "dependencies": {
+    "@types/node": "^22.5.0",
+    "axios": "^1.7.5",
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
